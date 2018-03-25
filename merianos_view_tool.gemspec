@@ -6,12 +6,12 @@ require "merianos_view_tool/version"
 Gem::Specification.new do |spec|
   spec.name          = "merianos_view_tool"
   spec.version       = MerianosViewTool::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Ioan Meri"]
+  spec.email         = ["example@example.com"]
 
-  spec.summary       = %q{Various view specific methods for applications I use.}
+  spec.summary       = %q{Various view specific methods for applications I use}
   spec.description   = %q{Provides generated HTML data for Rails applications.}
-  spec.homepage      = "https://devcamp.com"
+  spec.homepage      = "http://devcamp.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.0"
 end
